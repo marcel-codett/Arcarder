@@ -16,7 +16,7 @@ const RoadMap = () => {
       <div
         className="xl:flex lg:grid
          xl:space-x-4 
-            p-20 items-center"
+           p-4 xl:p-20 items-center"
       >
         <h3 className="font-bold text-3xl mb-10 text-purple-800">2022</h3>
         <div
@@ -73,7 +73,7 @@ const RoadMap = () => {
       <div
         className="xl:flex lg:grid
          xl:space-x-4 
-            p-20 items-center"
+           p-4 xl:p-20 items-center"
       >
         <h3 className="font-bold text-3xl mb-10 text-purple-800">2022</h3>
         <div

@@ -6,9 +6,9 @@ const Footer = () => {
     <footer
       className="text-white Footer 
     relative xl:py-[200px] xl:px-[100px] 
-    py-40 px-20"
+    py-40 px-10 md:px-20"
     >
-      <div className="flex flex-col xl:flex-row items-start xl:items-end xl:mb-0 mb-20">
+      <div className="flex flex-col md:flex-row xl:flex-row items-start xl:items-end xl:mb-0 mb-20">
         <div className="flex flex-col mb-10 flex-grow">
           <h1
             className="xl:text-2xl text-xl
@@ -16,7 +16,7 @@ const Footer = () => {
           >
             Stay in the loop
           </h1>
-          <p className="min-w-[300px]  max-w-[339px]">
+          <p className="min-w-[250px]  max-w-[339px]">
             Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
             consectetur, adipisci velit, sed quia non numquam eius modi tempora
             incidunt ut labore et dolore magnam aliquam quaerat voluptatem

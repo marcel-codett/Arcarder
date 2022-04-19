@@ -17,21 +17,24 @@ const Banner = () => {
 
       <div
         className="text-white 
-      xl:block flex flex-col items-center justify-center"
+      xl:block flex
+      flex-grow
+      ml-10 xl:ml-0 flex-col items-center justify-center"
       >
-        <h2 className="xl:text-[80px] text-6xl  lg:text-6xl mb-4 font-extrabold">
+        <h2 className="xl:text-[80px] text-5xl  lg:text-6xl mb-4 font-extrabold">
           <span className="font-medium ">GETSET</span>PLAY
         </h2>
         <p
-          className="w-[469px]  font-bold lg:text-2xl 
-        lg:mb-5 text-center xl:text-left text-xl mb-3"
+          className="xl:w-[469px] min-w-[300px] font-bold lg:text-2xl 
+        lg:mb-5 text-center xl:text-left text-md mb-3"
         >
           A DAO-POWERED ESPORTS AND STREAMING METAVERSE
         </p>
 
         <button
           className="rounded-xl bg-filter-blur
-          w-[165px] h-[61px] bg-transparent border-4 border-white
+          w-[165px] h-[61px]
+          cursor-pointer bg-transparent border-4 border-white
         text-white  "
         >
           EXPLORE
