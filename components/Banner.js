@@ -15,7 +15,7 @@ const Banner = () => {
         alt="control"
       />
 
-      <div className="text-white px-0 xl:px-40">
+      <div className="text-white ">
         <h2 className="xl:text-[100px] text-6xl  lg:text-7xl mb-4 font-extrabold">
           <span className="font-medium ">GETSET</span>PLAY
         </h2>
@@ -43,9 +43,9 @@ const Banner = () => {
         />
         <Image
           layout="fixed"
-          className="xl:w-[1000px] hidden "
-          width={1000}
-          height={1000}
+          className="xl:w-[1000px] "
+          width={700}
+          height={700}
           src="/images/controls.svg"
         />
       </div>
