@@ -1,14 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
 };
-webpack: (config, { webpack }) => {
-  config.plugins.push(
-    new webpack.IgnorePlugin({
-      resourceRegExp: /.*/,
-      contextRegExp: /__tests__/,
-    })
-  );
-  return config;
-},
-  (module.exports = nextConfig);
+
+module.exports = nextConfig;
