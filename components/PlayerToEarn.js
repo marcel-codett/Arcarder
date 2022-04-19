@@ -29,12 +29,12 @@ const PlayerToEarn = () => {
         className="grid lg:grid-cols-2 xl:grid-cols-3
       md:gap-5 space-y-10 xl:gap-7"
       >
-        <Player title="WARZONE" image="/images/cod_war.svg" />
+        <Player big title="WARZONE" image="/images/cod_war.svg" />
         <Player title="FORNITE" image="/images/fortnite.png" />
         <Player title="CS-GO" image="/images/csgo.svg" />
-        <Player title="FORNITE" image="/images/dota.png" />
-        <Player title="FORNITE" image="/images/legends.svg" />
-        <Player title="FORNITE" image="/images/rainbow_six.svg" />
+        <Player title="LEAGUE OF LEGENDS" image="/images/dota.png" />
+        <Player title="DOTA 2" image="/images/legends.svg" />
+        <Player title="RAINBOW 6" image="/images/rainbow_six.svg" />
       </div>
     </div>
   );

@@ -2,18 +2,21 @@ import React from "react";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <div className="flex items pt-40 p-10">
+    <div className="flex relative items py-40  p-10">
       {/* left */}
-      <Image
-        layout="responsive"
-        height={800}
+      <img
+        className="absolute top-0 opacity-20"
         src="/images/circle-1.svg"
-        width={800}
+        alt="control"
+      />
+      <img
+        className="absolute top-10 opacity-20"
+        src="/images/circle-2.svg"
         alt="control"
       />
 
-      <div className="text-white ">
-        <h2 className="xl:text-[60px] text-7xl mb-4 font-extrabold">
+      <div className="text-white px-0 xl:px-40">
+        <h2 className="xl:text-[100px] text-6xl  lg:text-7xl mb-4 font-extrabold">
           <span className="font-medium ">GETSET</span>PLAY
         </h2>
         <p
@@ -32,11 +35,17 @@ const Banner = () => {
         </button>
       </div>
       {/* right */}
-      <div>
+      <div className="relativer">
+        <img
+          className="absolute bottom-[-20px]
+          opacity-20 blur-2xl"
+          src="/images/blured.svg"
+        />
         <Image
           layout="fixed"
-          width={700}
-          height={700}
+          className="xl:w-[1000px] "
+          width={1000}
+          height={1000}
           src="/images/controls.svg"
         />
       </div>

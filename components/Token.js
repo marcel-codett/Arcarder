@@ -2,11 +2,22 @@ import React from "react";
 import Image from "next/image";
 const Token = () => {
   return (
-    <div className="text-white py-60 p-10">
+    <div className="text-white relative py-60 p-10">
       <h1 className="text-center text-2xl mb-5">Token</h1>
+      <img
+        src="images/line.svg"
+        alt="line"
+        className="absolute top-[50%] w-full left-0"
+      />
+      <img
+        className="absolute left-[50%]
+        z-8 transform translate-x-[-50%] top-[50%]
 
-      <div className="lg:flex grid place-items items-center">
-        {/* left content */}
+       opacity-40 blur-2xl"
+        src="images/blured2.svg"
+        alt="vector"
+      />
+      <div className="lg:flex grid place-items items-center z-10">
         <div className="flex flex-col lg:space-y-20 xl:mr-20 w-[50%]">
           <div>
             <h4 className="font-bold">$GSP</h4>
@@ -36,7 +47,6 @@ const Token = () => {
             </p>
           </div>
         </div>
-        {/* Right content */}
         <Image
           height={300}
           width={300}

@@ -63,7 +63,10 @@
   }
 
   .Border {
-    border: 2px solid rgba(197, 125, 250, 0.51);
+    border: 2px solid #c99ff3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    transform: rotate(-90deg);
   }
 
   .Explore {

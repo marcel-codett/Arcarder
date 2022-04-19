@@ -4,10 +4,37 @@ import AboutIcon from "./AboutIcon";
 const About = () => {
   return (
     <div
-      className="text-white
+      className="text-white relative
     grid place-items-center p-10"
     >
-      <h1 className="text-2xl mb-20">About GETSETPLAY</h1>
+      <img
+        className="absolute right-0 top-0 h-80"
+        src="images/Vector_94.svg "
+        alt="vector"
+      />
+      <img
+        className="absolute transform rotate-180 left-0 
+        bottom-[-220px] h-80"
+        alt="vector"
+        src="images/Vector_94.svg "
+      />
+      <img
+        className="absolute left-0 bottom-[-220px]
+       opacity-30 blur-2xl"
+        src="images/blured2.svg"
+        alt="vector"
+      />
+      <img
+        className="absolute bottom-[0px]
+       opacity-30 blur-2xl"
+        src="images/blured2.svg"
+      />
+      <img
+        className="absolute bottom-[100px]
+       opacity-30 blur-2xl"
+        src="images/blured2.svg"
+      />
+      <h1 className="z-10 font-semibold text-2xl mb-20">ABOUT GETSETPLAY</h1>
 
       <div
         className="relative

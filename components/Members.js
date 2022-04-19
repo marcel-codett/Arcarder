@@ -15,8 +15,9 @@ const Members = ({ title, Advisory }) => {
           />
           <img
             className="absolute right-0 
-        bottom-0 left-[50%] 
-        transform translate-x-[-50%] h-80"
+        bottom-0 left-[50%] blur-2xl
+        opacity-40
+        transform translate-x-[-50%] h-[500px]"
             src="images/blur1.svg "
             alt="blur"
           />
