@@ -43,7 +43,7 @@ const Banner = () => {
         />
         <Image
           layout="fixed"
-          className="xl:w-[1000px] "
+          className="xl:w-[1000px] hidden "
           width={1000}
           height={1000}
           src="/images/controls.svg"
