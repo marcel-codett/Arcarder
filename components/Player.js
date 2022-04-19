@@ -4,7 +4,7 @@ const Player = ({ image, title, big }) => {
   return (
     <div className="relative xl:p-10  p-5 Players">
       <div
-        className="Border absolute left-[-30px] 
+        className="Border hidden md:hidden lg:block absolute left-[-30px] 
       top-[50px]  xl:p-10  p-5  w-[440px] h-[80%]"
       ></div>
       <img src={image} alt="player" />

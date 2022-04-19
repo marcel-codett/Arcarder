@@ -18,8 +18,8 @@ const Help = () => {
         alt="keyboard"
       />
       <div
-        className="grid lg:space-x-10 grid-cols-5 p-10
-       place-items-center "
+        className="grid lg:space-x-10 xl:grid-cols-5 p-10
+       place-items-center md:grid-cols-3   md:gap-10 "
       >
         <HelperIcon
           src="images/ICONS-02.png"

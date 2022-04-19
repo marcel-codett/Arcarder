@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Banner = () => {
   return (
-    <div className="flex relative items py-40  p-10">
+    <div className="flex relative items py-0 xl:py-40  xl:p-10">
       {/* left */}
       <img
         className="absolute top-0 opacity-20"
@@ -15,13 +15,16 @@ const Banner = () => {
         alt="control"
       />
 
-      <div className="text-white ">
-        <h2 className="xl:text-[100px] text-6xl  lg:text-7xl mb-4 font-extrabold">
+      <div
+        className="text-white 
+      xl:block flex flex-col items-center justify-center"
+      >
+        <h2 className="xl:text-[80px] text-6xl  lg:text-6xl mb-4 font-extrabold">
           <span className="font-medium ">GETSET</span>PLAY
         </h2>
         <p
           className="w-[469px]  font-bold lg:text-2xl 
-        lg:mb-5 text-xl mb-3"
+        lg:mb-5 text-center xl:text-left text-xl mb-3"
         >
           A DAO-POWERED ESPORTS AND STREAMING METAVERSE
         </p>
@@ -43,7 +46,7 @@ const Banner = () => {
         />
         <Image
           layout="fixed"
-          className="xl:w-[1000px] "
+          className="xl:w-[1000px] hidden"
           width={700}
           height={700}
           src="/images/controls.svg"

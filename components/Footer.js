@@ -6,10 +6,10 @@ const Footer = () => {
     <footer
       className="text-white Footer 
     relative xl:py-[200px] xl:px-[100px] 
-    py-20 px-20"
+    py-40 px-20"
     >
-      <div className="flex items-end">
-        <div className="flex flex-col flex-grow">
+      <div className="flex flex-col xl:flex-row items-start xl:items-end xl:mb-0 mb-20">
+        <div className="flex flex-col mb-10 flex-grow">
           <h1
             className="xl:text-2xl text-xl
           mb-3 font-extrabold"
@@ -23,12 +23,12 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="xl:space-x-2">
+        <div className="xl:space-x-2 flex xl:flex-row flex-col items-center">
           <input
             type="email"
             className="rounded-xl
             px-4 bg-white outline-none
-            text-black p-2 h-12 w-[400px]"
+            text-black p-2 h-12 w-[250px] xl:mb-0 mb-5 xl:w-[400px]"
             placeholder="Your email address"
           />
           <button
@@ -42,13 +42,13 @@ const Footer = () => {
       </div>
 
       <p
-        className="absolute 
-        left-20 bottom-10 text-sm"
+        className="xl:absolute 
+        left-20 bottom-10 text-sm xl:mb-0 mb-20"
       >
         © 2022 Get Set Play. All Rights Reserved.
       </p>
       <div
-        className="absolute 
+        className="xl:absolute space-x-16
         right-20 bottom-10 flex items-center
          xl:space-x-6 "
       >

@@ -4,7 +4,7 @@ const HelperIcon = ({ ForCard, src, description, title }) => {
   return (
     <div
       className={
-        ForCard ? `absolute top-4 right-10` : `flex flex-col items-center`
+        ForCard ? `absolute top-4 right-10` : `flex flex-col items-center py-6`
       }
     >
       <img
