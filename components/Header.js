@@ -6,8 +6,10 @@ const Header = () => {
     <div className="flex items-center justify-between p-10">
       <img
         className="h-50 w-50 object-contain
+      
       "
         src="./images/logo.svg"
+        alt="logo"
       />
 
       <div

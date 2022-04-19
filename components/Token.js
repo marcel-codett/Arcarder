@@ -42,6 +42,7 @@ const Token = () => {
           width={300}
           layout="fixed"
           src="/images/gsp_coin.svg"
+          alt="gsp"
         />
       </div>
     </div>

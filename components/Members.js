@@ -11,12 +11,14 @@ const Members = ({ title, Advisory }) => {
             className="absolute right-0 
         bottom-20 h-80"
             src="images/Vector_94.svg "
+            alt="vector"
           />
           <img
             className="absolute right-0 
         bottom-0 left-[50%] 
         transform translate-x-[-50%] h-80"
             src="images/blur1.svg "
+            alt="blur"
           />
         </>
       )}

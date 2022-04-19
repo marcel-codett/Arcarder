@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutIcon = ({ src, title, description }) => {
   return (
     <div className="flex flex-col items-center">
-      <Image width={300} height={300} layout="fixed" src={src} />
+      <Image width={300} height={300} layout="fixed" alt="ICon" src={src} />
 
       <div className="flex flex-col items-center xl:items-start">
         <h2>{title}</h2>

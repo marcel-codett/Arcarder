@@ -9,6 +9,7 @@ const Banner = () => {
         height={800}
         src="/images/circle-1.svg"
         width={800}
+        alt="control"
       />
 
       <div className="text-white ">

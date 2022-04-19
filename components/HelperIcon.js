@@ -10,6 +10,7 @@ const HelperIcon = ({ ForCard, src, description, title }) => {
       <img
         className={ForCard ? ` Icon mb-2 p-2` : ` Icon mb-7 px-8 py-8`}
         src={src}
+        alt="card-image"
       />
       {title && description && (
         <div className="mt-5 text-white">

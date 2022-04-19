@@ -12,6 +12,7 @@ const Card = ({ name, position, description, image, company1, company2 }) => {
         <img
           className="absolute top-0 right-6 w-100 h-100"
           src="/images/Image.svg"
+          alt="abs"
         />
         <Image
           className=" rounded-full"
@@ -19,6 +20,7 @@ const Card = ({ name, position, description, image, company1, company2 }) => {
           height={150}
           layout="fixed"
           src={image}
+          alt="card-image"
         />
       </div>
 
@@ -30,8 +32,16 @@ const Card = ({ name, position, description, image, company1, company2 }) => {
       <p className="text-sm text-center mx-auto px-6 mt-6">{description}</p>
 
       <div className="mt-6 flex items-center space-x-4 ">
-        <img className="Icon rounded-xl border-2 px-4 py-2" src={company1} />
-        <img className="Icon rounded-xl border-2 px-4 py-2" src={company2} />
+        <img
+          className="Icon rounded-xl border-2 px-4 py-2"
+          src={company1}
+          alt="comp"
+        />
+        <img
+          className="Icon rounded-xl border-2 px-4 py-2"
+          src={company2}
+          alt="comp2"
+        />
       </div>
     </div>
   );

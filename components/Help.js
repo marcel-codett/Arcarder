@@ -9,11 +9,13 @@ const Help = () => {
         className="absolute top-[-170px] h-[300px] right-0"
         layout="fixed"
         src="/images/mouse.svg"
+        alt="mouse"
       />
       <img
         className="absolute bottom-[-200px] h-[300px] left-0"
         layout="fixed"
         src="/images/keyboard.svg"
+        alt="keyboard"
       />
       <div
         className="grid lg:space-x-10 grid-cols-5 p-10
